@@ -39,7 +39,7 @@ param
     [Parameter(HelpMessage = 'Experimental features operated by Spotify.')]
     [switch]$exp_spotify,
 
-    [Parameter(HelpMessage = 'Experimental features of SpotX are not included')]
+    [Parameter(HelpMessage = 'Experimental features of spotifypremiumcode are not included')]
     [switch]$exp_standart,
     
     [Parameter(HelpMessage = 'Do not hide the icon of collaborations in playlists.')]
@@ -172,7 +172,7 @@ function Set-ScriptLanguageStrings {
         # Define language strings.
         $langStringsEN = [PSCustomObject]@{
             Author          = "Patch author:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             Incorrect       = "Oops, an incorrect value,"
             Incorrect2      = "enter again through "
             Download        = "Error downloading"
@@ -220,10 +220,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Error"
             FileLocBroken   = "Location of Spotify files is broken, uninstall the client and run the script again"
             Spicetify       = "Spicetify detected"
-            NoRestore       = "SpotX has already been installed, but files to recover xpui.js.bak and xpui.css.bak not found. `nPlease uninstall Spotify client and run Install.bat again"
+            NoRestore       = "spotifypremiumcode has already been installed, but files to recover xpui.js.bak and xpui.css.bak not found. `nPlease uninstall Spotify client and run Install.bat again"
             ExpSpotify      = "Experimental features operated by Spotify"
-            ExpStandart     = "Experimental features of SpotX are not included"
-            NoRestore2      = "SpotX has already been installed, xpui.bak not found. `nPlease uninstall Spotify client and run Install.bat again"
+            ExpStandart     = "Experimental features of spotifypremiumcode are not included"
+            NoRestore2      = "spotifypremiumcode has already been installed, xpui.bak not found. `nPlease uninstall Spotify client and run Install.bat again"
             UpdateBlocked   = "Spotify updates are already blocked"
             UpdateError     = "Failed to block updates"
             NoSpotifyExe    = "Could not find Spotify.exe"
@@ -236,7 +236,7 @@ function Set-ScriptLanguageStrings {
         
         $langStringsRU = [PSCustomObject]@{
             Author          = "Автор патча:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             Incorrect       = "Ой, некорректное значение,"
             Incorrect2      = "повторите ввод через"
             Download        = "Ошибка загрузки"
@@ -285,10 +285,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Ошибка"
             FileLocBroken   = "Расположение файлов Spotify нарушено, удалите клиент и снова запустите скрипт"
             Spicetify       = "Обнаружен Spicetify"
-            NoRestore       = "SpotX уже был установлен, но файлы для восстановления xpui.js.bak и xpui.css.bak не найдены. `nУдалите клиент Spotify и снова запустите Install.bat"
+            NoRestore       = "spotifypremiumcode уже был установлен, но файлы для восстановления xpui.js.bak и xpui.css.bak не найдены. `nУдалите клиент Spotify и снова запустите Install.bat"
             ExpSpotify      = "Экспериментальные функции управляются Spotify"
-            ExpStandart     = "Экспериментальные функции SpotX не включены"
-            NoRestore2      = "SpotX уже был установлен, но файл для восстановления xpui.bak не найден. `nУдалите клиент Spotify и снова запустите Install.bat"
+            ExpStandart     = "Экспериментальные функции spotifypremiumcode не включены"
+            NoRestore2      = "spotifypremiumcode уже был установлен, но файл для восстановления xpui.bak не найден. `nУдалите клиент Spotify и снова запустите Install.bat"
             UpdateBlocked   = "Обновления Spotify уже заблокированы"
             UpdateError     = "Не удалось заблокировать обновления"
             NoSpotifyExe    = "Spotify.exe не найден"
@@ -301,7 +301,7 @@ function Set-ScriptLanguageStrings {
 
         $langStringsIT = [PSCustomObject]@{
             Author          = "Autore patch:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             TranslationBy   = "Autore traduzione:"
             TranslationBy2  = "@Francescoaracu"
             Incorrect       = "Ops! Valore sbagliato,"
@@ -351,10 +351,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Errore"
             FileLocBroken   = "Il percorso dei file di Spotify non è stato trovato, disinstalla Spotify e fai ripartire lo script"
             Spicetify       = "Rilevato Spicetify"
-            NoRestore       = "SpotX è già stato installato, ma file da recuperare xpui.js.bak e xpui.css.bak non trovati. `nPer favore, disinstalla Spotify e riapri il file Install.bat"
+            NoRestore       = "spotifypremiumcode è già stato installato, ma file da recuperare xpui.js.bak e xpui.css.bak non trovati. `nPer favore, disinstalla Spotify e riapri il file Install.bat"
             ExpSpotify      = "Features sperimentali attivate da Spotify"
-            ExpStandart     = "Features sperimentali di SpotX non incluse"
-            NoRestore2      = "SpotX è già stato installato, xpui.bak non trovato. `nPer favore, disinstalla Spotify e riapri il file Install.bat"
+            ExpStandart     = "Features sperimentali di spotifypremiumcode non incluse"
+            NoRestore2      = "spotifypremiumcode è già stato installato, xpui.bak non trovato. `nPer favore, disinstalla Spotify e riapri il file Install.bat"
             UpdateBlocked   = "Gli aggiornamenti automatici di Spotify sono già stati bloccati"
             UpdateError     = "Blocco degli aggiornamenti non riuscito"
             NoSpotifyExe    = "Spotify.exe non trovato"
@@ -367,7 +367,7 @@ function Set-ScriptLanguageStrings {
 
         $langStringsTR = [PSCustomObject]@{
             Author          = "Yama yapımcısı:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             TranslationBy   = "Tercüman:"
             TranslationBy2  = "@metezd"
             Incorrect       = "Eyvah, yanlış bir değer,"
@@ -417,10 +417,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Hata"
             FileLocBroken   = "Spotify dosyalarının konumu bozuk, istemciyi kaldırın ve kodu tekrar çalıştırın"
             Spicetify       = "Spicetify algılandı"
-            NoRestore       = "SpotX zaten yüklenmiş, ancak xpui.js.bak ve xpui.css.bak dosyalarının bulunamadığı tespit edildi. `nLütfen Spotify istemcisini kaldırın ve Install.bat dosyasını tekrar çalıştırın"
+            NoRestore       = "spotifypremiumcode zaten yüklenmiş, ancak xpui.js.bak ve xpui.css.bak dosyalarının bulunamadığı tespit edildi. `nLütfen Spotify istemcisini kaldırın ve Install.bat dosyasını tekrar çalıştırın"
             ExpSpotify      = "Spotify tarafından sunulan deneysel özellikler"
-            ExpStandart     = "SpotX'in deneysel özellikleri dahil değildir"
-            NoRestore2      = "SpotX zaten kurulmuş, xpui.bak dosyası bulunamadı. `nLütfen Spotify istemcisini kaldırın ve Install.bat dosyasını tekrar çalıştırın"
+            ExpStandart     = "spotifypremiumcode'in deneysel özellikleri dahil değildir"
+            NoRestore2      = "spotifypremiumcode zaten kurulmuş, xpui.bak dosyası bulunamadı. `nLütfen Spotify istemcisini kaldırın ve Install.bat dosyasını tekrar çalıştırın"
             UpdateBlocked   = "Spotify güncellemeleri zaten engellenmiş durumda"
             UpdateError     = "Güncellemeler engellenemedi"
             NoSpotifyExe    = "Spotify.exe bulunamadı"
@@ -433,7 +433,7 @@ function Set-ScriptLanguageStrings {
 
         $langStringsKA = [PSCustomObject]@{
             Author          = "პაჩის ავტორი:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             TranslationBy   = "თარგმანის ავტორი:"
             TranslationBy2  = "@Naviamold1"
             Incorrect       = "უპს, არასწორი შენატანი,"
@@ -483,10 +483,10 @@ function Set-ScriptLanguageStrings {
             Error           = "შეცდომა"
             FileLocBroken   = "Spotify ფაილების ლოკაცია არის გადეხილი, წაშალეთ კლიენტი და თავიდან გაუშვით სკრიპტი"
             Spicetify       = "Spicetify მოიზებნა"
-            NoRestore       = "SpotX უკვეა ჩაწერილი, მაგრამ ფაილები xpui.js.bak და xpui.css.bak აღსადგენად ვერ მოიძებნა. `nგთხოვთ წაშალეთ Spotify-ის აპლიკაცია და თავიდან გაუშვით Install.bat"
+            NoRestore       = "spotifypremiumcode უკვეა ჩაწერილი, მაგრამ ფაილები xpui.js.bak და xpui.css.bak აღსადგენად ვერ მოიძებნა. `nგთხოვთ წაშალეთ Spotify-ის აპლიკაცია და თავიდან გაუშვით Install.bat"
             ExpSpotify      = "ექსპერიმენტული ფუნქციები, რომელსაც მართავს Spotify"
-            ExpStandart     = "ექსპერიმენტული ფუნქციები SpotX არ მოითავსება"
-            NoRestore2      = "SpotX უკვე დაინსტალირებულია, xpui.bak ვერ მოიძებნა. `nგთხოვთ, წაშალოთ Spotify აპლიკაცია და თავიდან გაუშვით Install.bat"
+            ExpStandart     = "ექსპერიმენტული ფუნქციები spotifypremiumcode არ მოითავსება"
+            NoRestore2      = "spotifypremiumcode უკვე დაინსტალირებულია, xpui.bak ვერ მოიძებნა. `nგთხოვთ, წაშალოთ Spotify აპლიკაცია და თავიდან გაუშვით Install.bat"
             UpdateBlocked   = "Spotify-ს განახლებები უკვე დაბლოკერიბული არიან"
             UpdateError     = "განახლებების დაბლოკვა ვერ მოხერხდა"
             NoSpotifyExe    = "Spotify.exe ვერ მოიძებნა"
@@ -499,7 +499,7 @@ function Set-ScriptLanguageStrings {
 
         $langStringsPL = [PSCustomObject]@{
             Author          = "Patch author:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             TranslationBy   = "Translation author:"
             TranslationBy2  = "@Nokxixr"
             Incorrect       = "Oops, niewłaściwa wartość,"
@@ -549,10 +549,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Błąd"
             FileLocBroken   = "Lokalizacje plików spotify są zepsute, odinstaluj klienta i uruchom ponownie skrypt"
             Spicetify       = "Spicetify wykryty"
-            NoRestore       = "SpotX został zainstalowany, jednak pliki do odzyskania xpui.js.bak i xpui.css.bak zostały nieznalezione. `nProszę odinstalować klienta i uruchomić Install.bat ponownie"
+            NoRestore       = "spotifypremiumcode został zainstalowany, jednak pliki do odzyskania xpui.js.bak i xpui.css.bak zostały nieznalezione. `nProszę odinstalować klienta i uruchomić Install.bat ponownie"
             ExpSpotify      = "Eksperymentalne funkcje obsługiwane przez Spotify"
-            ExpStandart     = "Eksperymentalne funkcje SpotX nie są uwzględnione"
-            NoRestore2      = "SpotX został pobrany, xpui.bak nie znaleziony. `nProszę odinstalować klienta Spotify i uruchomić Install.bat ponownie"
+            ExpStandart     = "Eksperymentalne funkcje spotifypremiumcode nie są uwzględnione"
+            NoRestore2      = "spotifypremiumcode został pobrany, xpui.bak nie znaleziony. `nProszę odinstalować klienta Spotify i uruchomić Install.bat ponownie"
             UpdateBlocked   = "Spotify aktualizacje są już zablokowane"
             UpdateError     = "Nie udało się zablokować aktualizacji"
             NoSpotifyExe    = "Nie można znaleźć Spotify.exe"
@@ -564,9 +564,9 @@ function Set-ScriptLanguageStrings {
         }
         $langStringsES = [PSCustomObject]@{
             Author          = "Autor del parche:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             TranslationBy   = "Autor de la traducción:"
-            TranslationBy2  = "@peter9811"
+            TranslationBy2  = "@JaimeTR"
             Incorrect       = "Ufff, un valor incorrecto,"
             Incorrect2      = "ingrese nuevamente el valor "
             Download        = "Error al descargar"
@@ -614,10 +614,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Error"
             FileLocBroken   = "La ubicación de los archivos de Spotify no funciona, desinstala el cliente y vuelve a ejecutar el script"
             Spicetify       = "Spicetify detectado"
-            NoRestore       = "SpotX ya ha sido instalado, pero los archivos a recuperar xpui.js.bak y xpui.css.bak no se encuentran. `nPor favor, desinstala el cliente Spotify y ejecuta Install.bat de nuevo"
+            NoRestore       = "spotifypremiumcode ya ha sido instalado, pero los archivos a recuperar xpui.js.bak y xpui.css.bak no se encuentran. `nPor favor, desinstala el cliente Spotify y ejecuta Install.bat de nuevo"
             ExpSpotify      = "Funciones experimentales utilizadas para Spotify"
-            ExpStandart     = "Las características experimentales de SpotX no están incluidas"
-            NoRestore2      = "SpotX ya ha sido instalado, xpui.bak no se encuentra. `nPor favor, desinstala el cliente de Spotify y ejecuta Install.bat de nuevo"
+            ExpStandart     = "Las características experimentales de spotifypremiumcode no están incluidas"
+            NoRestore2      = "spotifypremiumcode ya ha sido instalado, xpui.bak no se encuentra. `nPor favor, desinstala el cliente de Spotify y ejecuta Install.bat de nuevo"
             UpdateBlocked   = "Las actualizaciones de Spotify ya están bloqueadas"
             UpdateError     = "No se han podido bloquear las actualizaciones"
             NoSpotifyExe    = "No se ha podido encontrar Spotify.exe"
@@ -630,7 +630,7 @@ function Set-ScriptLanguageStrings {
 
         $langStringsFR = [PSCustomObject]@{
             Author          = "Auteur du patch:"
-            Author2         = "@Amd64fox"
+            Author2         = "@JaimeTR"
             TranslationBy   = "Auteur de la traduction:"
             TranslationBy2  = "@xerta555"
             Incorrect       = "Oops, une valeure incorrecte,"
@@ -680,10 +680,10 @@ function Set-ScriptLanguageStrings {
             Error           = "Erreure"
             FileLocBroken   = "L'emplacement des fichiers est cassé, désinstaller le client et lancer de nouveau le script"
             Spicetify       = "Spicetify détecté"
-            NoRestore       = "SpotX a déjà été installé, mais les fichiers xpui.js.bak et xpui.css.bak qui sont à récupérer n'ont pas été trouvés. `nVeuillez désinstaller le client Spotify et relancez à nouveau Install.bat."
+            NoRestore       = "spotifypremiumcode a déjà été installé, mais les fichiers xpui.js.bak et xpui.css.bak qui sont à récupérer n'ont pas été trouvés. `nVeuillez désinstaller le client Spotify et relancez à nouveau Install.bat."
             ExpSpotify      = "Fonctions expérimentales exploitées par Spotify"
-            ExpStandart     = "Fonctions expérimentales de SpotX non incluses"
-            NoRestore2      = "SpotX a déjà été installé, xpui.bak introuvable. `nMerci de désinstaller le client Spotify et de lancer à nouveau Install.bat"
+            ExpStandart     = "Fonctions expérimentales de spotifypremiumcode non incluses"
+            NoRestore2      = "spotifypremiumcode a déjà été installé, xpui.bak introuvable. `nMerci de désinstaller le client Spotify et de lancer à nouveau Install.bat"
             UpdateBlocked   = "MàJ Spotify déjà bloquées"
             UpdateError     = "Échec du bloquage des MàJ"
             NoSpotifyExe    = "Spotify.exe introuvable"
@@ -811,10 +811,10 @@ function incorrectValue {
 
 function Check_verison_clients($param2) {
 
-    # checking the recommended version for spotx
+    # checking the recommended version for spotifypremiumcode
     if ($param2 -eq "online") {
         $ProgressPreference = 'SilentlyContinue' # Hiding Progress Bars
-        $readme = Invoke-WebRequest -UseBasicParsing -Uri https://raw.githubusercontent.com/amd64fox/SpotX/main/README.md
+        $readme = Invoke-WebRequest -UseBasicParsing -Uri https://raw.githubusercontent.com/JaimeTR/spotifypremiumcode/main/README.md
         $v = $readme.RawContent | Select-String "Recommended official version \[\d+\.\d+\.\d+\.\d+\]" -AllMatches
         $ver = $v.Matches.Value
         $ver = $ver -replace 'Recommended official version \[(\d+\.\d+\.\d+\.\d+)\]', '$1'
@@ -865,15 +865,15 @@ function downloadScripts($param1) {
         $links = $Matches.Values
     }
     if ($ru -and $param1 -eq "cache-spotify") {
-        $links2 = "https://raw.githubusercontent.com/amd64fox/SpotX/main/scripts/cache/cache_spotify_ru.ps1"
+        $links2 = "https://raw.githubusercontent.com/JaimeTR/spotifypremiumcode/main/scripts/cache/cache_spotify_ru.ps1"
     }
     if (!($ru) -and $param1 -eq "cache-spotify" ) { 
-        $links2 = "https://raw.githubusercontent.com/amd64fox/SpotX/main/scripts/cache/cache_spotify.ps1"
+        $links2 = "https://raw.githubusercontent.com/JaimeTR/spotifypremiumcode/main/scripts/cache/cache_spotify.ps1"
     }
     
     $web_Url_prev = "https://github.com/mrpond/BlockTheSpot/releases/latest/download/chrome_elf.zip", $links, `
-        $links2, "https://raw.githubusercontent.com/amd64fox/SpotX/main/scripts/cache/hide_window.vbs", `
-        "https://raw.githubusercontent.com/amd64fox/SpotX/main/scripts/cache/run_ps.bat", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSFN2hWu4UO-ZWyVe8wlP9c0JsrduA49xBnRmSLOt8SWaOfIpCwjDLKXMTWJQ5aKj3WakQv6-Hnv9rz/pub?gid=0&single=true&output=tsv"
+        $links2, "https://raw.githubusercontent.com/JaimeTR/spotifypremiumcode/main/scripts/cache/hide_window.vbs", `
+        "https://raw.githubusercontent.com/JaimeTR/spotifypremiumcode/main/scripts/cache/run_ps.bat", "https://docs.google.com/spreadsheets/d/e/2PACX-1vSFN2hWu4UO-ZWyVe8wlP9c0JsrduA49xBnRmSLOt8SWaOfIpCwjDLKXMTWJQ5aKj3WakQv6-Hnv9rz/pub?gid=0&single=true&output=tsv"
 
     $local_Url_prev = "$PWD\chrome_elf.zip", "$PWD\SpotifySetup.exe", "$cache_folder\cache_spotify.ps1", "$cache_folder\hide_window.vbs", "$cache_folder\run_ps.bat", "$PWD\links.tsv"
     $web_name_file_prev = "chrome_elf.zip", "SpotifySetup.exe", "cache_spotify.ps1", "hide_window.vbs", "run_ps.bat", "links.tsv"
@@ -1047,7 +1047,7 @@ if ($testHosts) {
 
 # Unique directory name based on time
 Push-Location -LiteralPath $env:TEMP
-New-Item -Type Directory -Name "SpotX_Temp-$(Get-Date -UFormat '%Y-%m-%d_%H-%M-%S')" | Convert-Path | Set-Location
+New-Item -Type Directory -Name "spotifypremiumcode_Temp-$(Get-Date -UFormat '%Y-%m-%d_%H-%M-%S')" | Convert-Path | Set-Location
 
 if ($premium) {
     Write-Host ($lang).Prem`n
@@ -1576,7 +1576,7 @@ if (Test-Path $xpui_js_patch) {
     $xpui_test_js = $reader.ReadToEnd()
     $reader.Close()
         
-    If ($xpui_test_js -match 'patched by spotx') {
+    If ($xpui_test_js -match 'patched by spotifypremiumcode') {
 
         $test_xpui_js_bak = Test-Path -Path $xpui_js_bak_patch
         $test_xpui_css_bak = Test-Path -Path $xpui_css_bak_patch
@@ -1638,7 +1638,7 @@ if (Test-Path $xpui_js_patch) {
     $writer = New-Object System.IO.StreamWriter -ArgumentList $xpui_js_patch
     $writer.BaseStream.SetLength(0)
     $writer.Write($xpui_js)
-    $writer.Write([System.Environment]::NewLine + '// Patched by SpotX') 
+    $writer.Write([System.Environment]::NewLine + '// Patched by spotifypremiumcode') 
     $writer.Close()  
 
     # Russian additional translation
@@ -1701,10 +1701,10 @@ If (Test-Path $xpui_spa_patch) {
     $zip = [System.IO.Compression.ZipFile]::Open($xpui_spa_patch, 'update')
     $entry = $zip.GetEntry('xpui.js')
     $reader = New-Object System.IO.StreamReader($entry.Open())
-    $patched_by_spotx = $reader.ReadToEnd()
+    $patched_by_spotifypremiumcode = $reader.ReadToEnd()
     $reader.Close()
 
-    If ($patched_by_spotx -match 'patched by spotx') {
+    If ($patched_by_spotifypremiumcode -match 'patched by spotifypremiumcode') {
         $zip.Dispose()    
 
         if ($test_bak_spa) {
@@ -1786,7 +1786,7 @@ If (Test-Path $xpui_spa_patch) {
     $writer = New-Object System.IO.StreamWriter($entry_xpui.Open())
     $writer.BaseStream.SetLength(0)
     $writer.Write($xpui_js)
-    $writer.Write([System.Environment]::NewLine + '// Patched by SpotX') 
+    $writer.Write([System.Environment]::NewLine + '// Patched by spotifypremiumcode') 
     $writer.Close()
 
     # Disable Sentry (vendor~xpui.js)
